@@ -24,17 +24,15 @@ Tres de las ventajas del uso del framework e colecciones son:
 
 2. Tipos de colecciones 
 
-Interfaz Iterable: permite recorrer y eliminar elementos. Nos permite usar el bucle forEach. 
+-Interfaz Iterable: permite recorrer y eliminar elementos. Nos permite usar el bucle forEach. 
 
-Interfaz Collection: extiende a Iterable, es decir, hereda su funcionalidad. El resto de las interfaces heredan de él, salvo Map. Se puede manipular las colecciones de una forma más general. Algunas de las operaciones son: add, remove, size, contains, toArray... 
+-Interfaz Collection: extiende a Iterable, es decir, hereda su funcionalidad. El resto de las interfaces heredan de él, salvo Map. Se puede manipular las colecciones de una forma más general. Algunas de las operaciones son: add, remove, size, contains, toArray... 
 
-Set: se trata de un Collection que no permite duplicados. No se puede acceder por posición. Mejora algunos métodos como equals. Implementaciones de Set: 
+-Set: se trata de un Collection que no permite duplicados. No se puede acceder por posición. Mejora algunos métodos como equals. Implementaciones de Set: 
 
--HashSet: Almacena sus valores en una tabla hash. No se puede predecir el orden de los elementos. Mejor rendimiento. Se puede insertar valores nulos. 
-
--LinkedHashSet: Almacena sus valores en una tabla hash en una lista doblemente enlazada por lo que mantiene el orden de inserción. 
-
--TreeSet: Almacena sus valores en un árbol red-back de búsqueda de elementos. Mantiene el orden según sus valores. Peor rendimiento que LinkedHashSet y HashSet. No permite insertar nulos. 
+HashSet: Almacena sus valores en una tabla hash. No se puede predecir el orden de los elementos. Mejor rendimiento. Se puede insertar valores nulos. 
+LinkedHashSet: Almacena sus valores en una tabla hash en una lista doblemente enlazada por lo que mantiene el orden de inserción. 
+TreeSet: Almacena sus valores en un árbol red-back de búsqueda de elementos. Mantiene el orden según sus valores. Peor rendimiento que LinkedHashSet y HashSet. No permite insertar nulos. 
 
 -List:  Se trata de un Collection que sí permite duplicados. Añade funcionalidades como el acceso posicional, la búsqueda, la iteración extendida y operaciones sobre un rango de elementos.
 Implementaciones de List: 
