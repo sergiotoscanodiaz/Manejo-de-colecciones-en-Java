@@ -1,7 +1,5 @@
 # Manejo-de-colecciones-en-Java
 
-***
-
 1. Introducción 
 
 Entendemos como colección un contenedor de un conjunto de elementos de un mismo tipo. Se usa para almacenar, recuperar y manipular datos. Por ejemplo: se pueden tratar problemas del mundo real como un carrito de la compra que podría ser un conjunto de items. 
