@@ -55,11 +55,11 @@ Otras interfaces relacionados con List: Queue y Deque.
 
 Disponibles en la clase Collections para ordenar o desordenar, buscar y operar con max/min, frecuencia... 
 
-Algoritmos de ordenación: Collections.sort. 
+-Algoritmos de ordenación: Collections.sort. 
 
-De desordenación: Collections.shuffle. 
+-De desordenación: Collections.shuffle. 
 
-De búsqueda: Búsqueda binaria. La lista debe estar ordenada previamente. Devuelve el índice del elemento si lo encuentra. 
+-De búsqueda: Búsqueda binaria. La lista debe estar ordenada previamente. Devuelve el índice del elemento si lo encuentra. 
 
 *** 
 
